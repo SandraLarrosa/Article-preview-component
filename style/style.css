@@ -103,6 +103,7 @@ img{
 }
 
 .buttonAuthor, .buttonShare{
+    cursor: pointer;
     background-color: var(--lightgrayishblue);
     border-radius: 50%;
     width: 30px;
