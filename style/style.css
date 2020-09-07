@@ -1,0 +1,146 @@
+:root {
+  --verydarkgrayishblue: hsl(217, 19%, 35%);
+  --desaturateddarkblue: hsl(214, 17%, 51%);
+  --grayishblue: hsl(212, 23%, 69%);
+  --lightgrayishblue: hsl(210, 46%, 95%);
+  --mobile: 375px;
+  --desktop: 1440px;
+  --fontsize: 13px;
+  --weight1: 500;
+  --weight2: 700;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: 'Manrope', sans-serif;
+}
+
+body{
+    background-color: var(--lightgrayishblue);
+}
+
+img{
+    width: 100%;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.img-card{
+    width: 320px;
+}
+
+.cardContent{
+    line-height: 1.5;
+}
+
+.cardTitle{
+    margin: 25px;
+    padding: 7px;
+    font-weight: 700;
+    color: var(--verydarkgrayishblue);
+    font-size: 15px;
+    
+}
+
+.cardText{
+    margin: 25px;
+    padding: 7px;
+    font-size: 13px;
+    color: var(--desaturateddarkblue);
+    margin-bottom: 20px;
+}
+
+.cardAuthor, .cardShare{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 25px;
+    padding-right: 25px;
+    align-items: center;
+    height: 70px;
+}
+
+.cardAuthorData, .cardShareIcons {
+    display: flex;
+}
+
+.cardAuthorImg{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.cardAuthorInfo{
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.cardAuthorName{
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--verydarkgrayishblue);
+}
+
+.cardAuthorDate{
+    font-size: 13px;
+    color: var(--grayishblue);
+}
+
+.button, .buttonShare{
+    background-color: var(--lightgrayishblue);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.share, .iconShare{
+    width: 15px;
+}
+
+.cardShare{
+    background-color: var(--verydarkgrayishblue); 
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+   
+}
+
+.cardShareTitle{
+    color: var(--grayishblue);
+    letter-spacing: 4px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.cardShareContentIcons{
+    display: flex;
+    margin-left: 12px;
+}
+
+.cardShareIcon{
+    margin-left: 12px;
+}
+
+.hidden{
+    display: none;
+}
