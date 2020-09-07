@@ -102,7 +102,7 @@ img{
     color: var(--grayishblue);
 }
 
-.button, .buttonShare{
+.buttonAuthor, .buttonShare{
     background-color: var(--lightgrayishblue);
     border-radius: 50%;
     width: 30px;
@@ -113,7 +113,7 @@ img{
     align-self: center;
 }
 
-.share, .iconShare{
+.share{
     width: 15px;
 }
 
